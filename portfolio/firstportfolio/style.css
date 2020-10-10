@@ -1,0 +1,188 @@
+body {
+
+    margin: 0px 20px;
+    background: #ffff;
+}
+
+.maincontentindex {
+
+    margin: 0px 5px;
+    width: 100%;
+    height: 600px;
+    font-family: 30px 'Open Sans Condensed', sans-serif;
+    padding-top: 30%;
+    background: url("https://i.imgur.com/Ltinz4U.jpg");
+    background-size: cover;
+}
+
+.index {
+    color: rgb(245, 117, 117);
+    text-align: center;
+
+}
+
+
+.index_content {
+    text-align: center;
+    color: #ffff;
+
+}
+
+li,
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+li {
+    width: 65px;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgb(223, 69, 69);
+    text-align: center;
+    font-size: 16px;
+
+}
+
+li:hover {
+    background: rgb(144, 150, 156);
+
+
+}
+
+header {
+    padding: 3px;
+    background-color: rgb(26, 21, 21);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+
+/* about me*/
+
+.maincontentabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    padding-top: 10%;
+    margin: 2px 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.maincontentabout img {
+
+    border-radius: 360px;
+    width: 120px;
+}
+
+.contentsection1 {
+    margin: 2px;
+    border: 1px solid #ffff;
+    padding: 15px;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(245, 117, 117);
+    border-radius: 20px;
+    color: #ffff;
+}
+
+.contentsection2wrapper {
+    margin: 2px;
+    border: 1px solid #ffff;
+    padding: 15px;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(245, 117, 117);
+    border-radius: 20px;
+    color: #ffff;
+}
+
+.contentsection2wrapper,
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.listabout,
+.unorder1,
+.unorder2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    color: #ffff;
+    font-family: 16px;
+}
+
+.footerabout {
+
+    padding: 30px;
+    background-color: rgb(26, 21, 21);
+    width: 100%;
+}
+
+
+.contact {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.section1contactcontent {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding: 100px;
+    color: #ffff;
+    background-color: rgb(245, 117, 117);
+}
+
+
+.footercontact {
+    margin-top: 30px;
+    padding: 50px;
+    background-color: rgb(26, 21, 21);
+    width: 100%;
+
+}
+
+.linkbutton p {
+    background: rgb(194, 189, 189);
+    border-radius: 40px;
+    width: 100px;
+
+}
+
+.footerproject {
+
+    margin-top: 300px;
+    padding: 50px;
+    background-color: rgb(26, 21, 21);
+    width: 100%;
+
+}
+
+.projects {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 200px;
+
+
+}
